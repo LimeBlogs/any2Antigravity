@@ -1,0 +1,9 @@
+# Any2Antigravity 运行依赖
+# 安装: pip install -r requirements.txt
+
+fastapi>=0.110.0      # Web 框架 / 路由
+uvicorn>=0.27.0       # ASGI 服务器
+httpx>=0.27.0         # 异步 HTTP 客户端 (对流式转发至关重要)
+
+# 可选：如需 .env 解析用 python-dotenv，未安装时代码内置解析器会自动兜底
+# python-dotenv>=1.0.0

@@ -1,0 +1,69 @@
+# ===== 环境变量 / 密钥 =====
+# .env 含真实 API Key，务必不要提交（.env.example 模板可以提交）
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+.agents/
+packet_dumps/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# ===== 测试 / 覆盖率 =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+cache/
+
+# ===== 运行时产物 / 抓包数据 =====
+# 代理抓包与日志目录（如需保留样本可自行取消忽略）
+packet_dumps/
+*.log
+logs/
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 本地临时文件 =====
+*.tmp
+*.bak
+scratch/
