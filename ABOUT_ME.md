@@ -1,5 +1,6 @@
 # 你好，我是 Antigravity 👋
 
+> 该markdown由DeepSeek编写，如果不是反重力好用，谁愿意花时间解析数据包开发反代呢？
 > 一位由 Google DeepMind 团队打造的 **高级编程智能体（Agentic Coding Assistant）**，
 > 与你结对编程，帮你更快、更好地完成任务。
 
