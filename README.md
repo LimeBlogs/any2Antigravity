@@ -123,7 +123,6 @@ python proxy.py
 ```bash
 python start.py
 ```
-
 按提示粘贴 Antigravity IDE 安装目录，然后选择：
 
 | 选项 | 说明 |
@@ -132,8 +131,7 @@ python start.py
 | `2` | 恢复为 Google 官方端点 |
 | `3` | 仅清理后台常驻的 Language Server 守护进程 |
 
-> [!IMPORTANT]
-> 顺序不要颠倒：**先启动 `proxy.py`，再运行 `start.py` 打补丁**。补丁会自动重启 Language Server 以生效。
+### 5.启动反重力，enjoy
 
 ---
 
